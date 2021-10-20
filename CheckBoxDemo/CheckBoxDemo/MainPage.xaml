@@ -26,7 +26,7 @@
         <Label Grid.Column="2"
  Text="Bold:"
  TextColor="Blue" FontAttributes="Bold"
- FontSize="16"
+ FontSize="20"
  VerticalOptions="Center" />
         <CheckBox Grid.Column="3"
  Color="Blue"
@@ -35,7 +35,7 @@
         <Label Grid.Row="1"
  Text="Underline:"
  TextColor="Green" FontAttributes="None"
- FontSize="16" TextDecorations="Underline"
+ FontSize="20" TextDecorations="Underline"
  VerticalOptions="Center" />
         <CheckBox Grid.Row="1"
  Grid.Column="1"
@@ -45,19 +45,19 @@
         <Label Grid.Row="1"
  Grid.Column="2"
  Text="Strikethrough:"
- TextColor="Violet" FontAttributes="Bold"
- FontSize="16" TextDecorations="Strikethrough"
+ TextColor="Purple" FontAttributes="Bold"
+ FontSize="20" TextDecorations="Strikethrough"
  VerticalOptions="Center" />
         <CheckBox Grid.Row="1"
  Grid.Column="3"
- Color="Violet"
+ Color="Purple"
  CheckedChanged="OnStrikethrough"
  VerticalOptions="Center" />
         <Label x:Name="label"
  Grid.Row="2"
  Grid.ColumnSpan="4"
  TextColor="Navy" FontAttributes="Bold"
- FontSize="30"
+ FontSize="40"
  HorizontalTextAlignment="Center"
  VerticalTextAlignment="Center"
  Text="Форматирование текста в элементе управления Label"/>
